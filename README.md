@@ -61,11 +61,11 @@ curl http://127.0.0.1:8000/health
 | `tenure` | int | Number of months the customer has stayed |
 | `MonthlyCharges` | float | Monthly charges amount |
 | `TotalCharges` | float | Total charges amount |
-| `Contract` | str | Contract type (e.g., "Month-to-month", "One year", "Two year") |
-| `InternetService` | str | Internet service type (e.g., "Fiber optic", "DSL", "No") |
-| `OnlineSecurity` | str | Online security status (e.g., "Yes", "No", "No internet service") |
-| `TechSupport` | str | Tech support status (e.g., "Yes", "No", "No internet service") |
-| `PaperlessBilling` | str | Paperless billing status (e.g., "Yes", "No") |
+| `Contract` | str | Contract type ("Month-to-month", "One year", "Two year") |
+| `InternetService` | str | Internet service type ("Fiber optic", "DSL", "No") |
+| `OnlineSecurity` | str | Online security status ("Yes", "No", "No internet service") |
+| `TechSupport` | str | Tech support status ("Yes", "No", "No internet service") |
+| `PaperlessBilling` | str | Paperless billing status ("Yes", "No") |
 
 **Response:**
 | Field | Type | Description |
