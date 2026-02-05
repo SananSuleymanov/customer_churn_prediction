@@ -30,4 +30,4 @@ def predict_churn(payload: dict):
     prob = model.predict_proba(df)[0][1]
     
     churn_label = "Yes" if pred == 1 else "No"
-    return {"churn": churn_label, "probability": float(prob)}
+    return {"churn": churn_label, "probability": round(float(prob), 2)}
