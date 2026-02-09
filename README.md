@@ -101,6 +101,11 @@ curl -X POST "http://127.0.0.1:8000/api/predict" \
 
 The machine learning model was trained using Google Colab. The training notebook is available at `train.ipynb`.
 
+To train the model locally, you can also run:
+```bash
+python train.py
+```
+
 ## Project Structure
 
 ```
